@@ -322,6 +322,10 @@ html {
 
 /* Responsive styles for heading */
 @media (max-width: 600px) {
+    .section-heading {
+        padding: 40px 20px; /* Adjust padding for mobile */
+    }
+    
     .section-heading h2 {
         font-size: 24px; /* Adjust font size for mobile */
     }
@@ -334,6 +338,7 @@ html {
         font-size: 14px; /* Adjust font size for mobile */
     }
 }
+
 
 
 
