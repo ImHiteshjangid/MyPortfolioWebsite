@@ -12,7 +12,51 @@
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
       rel="stylesheet"
     />
+    <style>
+        
+      .modern-button {
+          padding: 5px 15px;
+          font-size: 18px;
+          color: #fff;
+          background-color: #333;
+          border: 2px solid #333;
+          border-radius: 6px;
+          cursor: pointer;
+          transition: all 0.5s ease;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+          position: relative;
+          overflow: hidden;
+      }
 
+      .modern-button::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 300%;
+          height: 300%;
+          background-color: #fff;
+          transition: all 0.5s ease;
+          border-radius: 50%;
+          transform: translate(-50%, -50%) scale(0);
+          z-index: 0;
+      }
+
+      .modern-button:hover::before {
+          transform: translate(-50%, -50%) scale(1);
+      }
+
+      .modern-button:hover {
+          color: #333;
+          border-color: #fff;
+          box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+      }
+
+      .modern-button span {
+          position: relative;
+          z-index: 1;
+      }
+    </style>
     <title>Hitesh Jangid</title>
 <!--
 Reflux Template
@@ -95,13 +139,17 @@ https://templatemo.com/tm-531-reflux
               </div>
               <div class="col-md-6 align-self-start">
                 <div class="right-text">
-                <br><br><br>
-                  <h3><b>Ｈｅｌｌｏ,</b></h3>
-                  <h5 style="font-size: 22px;"><b>𝐼'𝑚 𝐻𝑖𝑡𝑒𝑠ℎ 𝐽𝑎𝑛𝑔𝑖𝑑</b></h5>
-                  <p style="text-transform: capitalize; font-size: 18px; font-family: Arial, sans-serif;">
-                    𝐴 𝑅𝑒𝑐𝑒𝑛𝑡 𝐵𝑆𝑐 𝐼𝑇 𝐺𝑟𝑎𝑑𝑢𝑎𝑡𝑒 𝐹𝑟𝑜𝑚 𝑀𝑢𝑚𝑏𝑎𝑖 𝑈𝑛𝑖𝑣𝑒𝑟𝑠𝑖𝑡𝑦 𝑊𝑖𝑡ℎ 𝐴 𝑆𝑡𝑟𝑜𝑛𝑔 𝑃𝑎𝑠𝑠𝑖𝑜𝑛 𝐹𝑜𝑟 𝐷𝑎𝑡𝑎 𝑆𝑐𝑖𝑒𝑛𝑐𝑒 𝐴𝑛𝑑 𝑀𝑎𝑐ℎ𝑖𝑛𝑒 𝐿𝑒𝑎𝑟𝑛𝑖𝑛𝑔. 𝑂𝑣𝑒𝑟 𝑇ℎ𝑒 𝑃𝑎𝑠𝑡 𝐹𝑒𝑤 𝑌𝑒𝑎𝑟𝑠, 𝐼'𝑣𝑒 𝐻𝑜𝑛𝑒𝑑 𝑀𝑦 𝑆𝑘𝑖𝑙𝑙𝑠 𝐼𝑛 𝑃𝑦𝑡ℎ𝑜𝑛, 𝑆𝑄𝐿, 𝐴𝑛𝑑 𝑅, 𝐴𝑛𝑑 𝐻𝑎𝑣𝑒 𝐶𝑜𝑚𝑝𝑙𝑒𝑡𝑒𝑑 𝑆𝑒𝑣𝑒𝑟𝑎𝑙 𝑃𝑟𝑜𝑗𝑒𝑐𝑡𝑠 𝐼𝑛 𝐷𝑎𝑡𝑎 𝐴𝑛𝑎𝑙𝑦𝑠𝑖𝑠 𝐴𝑛𝑑 𝑉𝑖𝑠𝑢𝑎𝑙𝑖𝑧𝑎𝑡𝑖𝑜𝑛. 𝐼 𝐻𝑎𝑣𝑒 𝐴𝑙𝑤𝑎𝑦𝑠 𝐸𝑛𝑗𝑜𝑦𝑒𝑑 𝑃𝑟𝑜𝑏𝑙𝑒𝑚-𝑆𝑜𝑙𝑣𝑖𝑛𝑔 𝐴𝑛𝑑 𝐵𝑢𝑖𝑙𝑑𝑖𝑛𝑔 𝑆𝑜𝑙𝑢𝑡𝑖𝑜𝑛𝑠. 𝑇ℎ𝑎𝑡'𝑠 𝐻𝑜𝑤 𝐼 𝐿𝑜𝑜𝑘 𝐴𝑡 𝑇ℎ𝑖𝑠 𝐹𝑖𝑒𝑙𝑑 𝑂𝑓 𝐷𝑎𝑡𝑎 𝑆𝑐𝑖𝑒𝑛𝑐𝑒: 𝐴𝑠 𝐴 𝑅𝑒𝑎𝑙𝑚 𝐹𝑖𝑙𝑙𝑒𝑑 𝑊𝑖𝑡ℎ 𝑉𝑎𝑠𝑡 𝐴𝑚𝑜𝑢𝑛𝑡𝑠 𝑂𝑓 𝐷𝑎𝑡𝑎 𝑇ℎ𝑎𝑡 𝐶𝑎𝑛 𝐵𝑒 𝐿𝑒𝑣𝑒𝑟𝑎𝑔𝑒𝑑 𝑇𝑜 𝑆𝑜𝑙𝑣𝑒 𝑇ℎ𝑒 𝑃𝑟𝑜𝑏𝑙𝑒𝑚𝑠 𝑊𝑒 𝐻𝑢𝑚𝑎𝑛𝑠 𝐹𝑎𝑐𝑒 𝐼𝑛 𝑂𝑢𝑟 𝐿𝑖𝑣𝑒𝑠.
+                  <br><br><br>
+                  <h3 style="font-family: 'MV Boli', sans-serif; font-size: 30px;"><b>Hello,</b></h3>
+                  <h3 style="font-family: 'MV Boli', sans-serif; font-size: 24px; letter-spacing: 2px;"><b>I'm Hitesh Jangid</b></h3>
+                  <p style="text-transform: capitalize; font-size: 18px; font-family: 'MV Boli', sans-serif;">
+                    A recent BSc IT Graduate from Mumbai University with a strong passion for Data Science and Machine Learning. Over the 
+                    past few years, I've honed my skills in Python, SQL, and R, and have completed several projects in Data Analysis 
+                    and Visualization. I have always enjoyed Problem-Solving and Building Solutions. That's How I Look At This Field Of 
+                    Data Science: As A Realms Filled With Vast Amounts Of Data That Can Be Leveraged To Solve The Problems We Humans 
+                    Face In Our Lives.
                   </p>
-                </div>
+                  <button class="modern-button"><span>Download Resume</span></button>
               </div>
             </div>
           </div>
@@ -113,7 +161,7 @@ https://templatemo.com/tm-531-reflux
                   <p>
                     I learned to code through a combination of online and offline courses, continuous practice, and various 
                     personal projects. My journey began with learning SQL databases during my junior college years. 
-                    Later, I discovered Python and fell in love with Data Science. Since then, I have been learning something 
+                    Later, I discovered Python and field of Data Science. Since then, I have been learning something 
                     new every day, thanks to the projects that have taught me valuable skills.
                   </p>
                 </br>
@@ -140,7 +188,7 @@ https://templatemo.com/tm-531-reflux
       <section class="section my-services" data-section="section2">
         <div class="container">
           <div class="section-heading">
-            <h5 style="opacity: 0.3;">What I’m good at?</h5>
+            <h6 style="opacity: 0.2;">What I’m good at?</h6>
             <h2>Skills</h2>
             <div class="line-dec"></div>
             <br>
@@ -237,18 +285,17 @@ https://templatemo.com/tm-531-reflux
               <a href="#"><img alt="Oracle SQL Developer" src="https://img.shields.io/badge/Oracle_SQL_Developer-F80000.svg?logo=oracle&logoColor=white" style="width: 200px;"></a>
               <a href="#"><img alt="RStudio" src="https://img.shields.io/badge/RStudio-75AADB.svg?logo=rstudio&logoColor=white" style="width: 95px;"></a>
               <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05032.svg?logo=git&logoColor=white" style="width: 60px;"></a>
-              <a href="#"><img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?logo=intellij-idea&logoColor=white" style="width: 145px;">
+              <a href="#"><img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?logo=intellij-idea&logoColor=white" style="width: 145px;"></a>
           </p>
       </section>
       <section class="section my-work" data-section="section3">
         <div class="container">
           <div class="section-heading">
-            <h2>My Work</h2>
+            <h6 style="opacity: 0.2;">My Work</h6>
+            <h2>Projects</h2>
             <div class="line-dec"></div>
-            <span
-              >Check out some of my recent projects below. Click on the project Image / Name to view more details and access the code on GitHub. 
-              If you have any feedback or questions, feel free to reach out!
-            </span>
+            <br>
+            <span>Check out some of my recent projects below.</span>
           </div>
           <div class="row">
             <div class="isotope-wrapper">
